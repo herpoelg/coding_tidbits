@@ -5,7 +5,7 @@
 from pymongo import MongoClient
 
 #connecting
-client = MongoClient("mongodb+srv://m001-student:m001-mongodb-basics@sandbox.h81wz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+client = MongoClient("mongodb+srv://m001-student:<pwd>>@sandbox.h81wz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 
 test_db = client.data
 collection = test_db.test_coll
