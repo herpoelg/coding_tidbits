@@ -7,7 +7,7 @@ sh1='$'
 curl -o memorials-of-old-lincolnshire.txt http://www.het.brown.edu/guide/UNIX-password-security.txt
 
 #wget
-GNU Wget is a free utility for non-interactive download of files from the Web. It supports HTTP, HTTPS, and FTP protocols, as well as retrieval through HTTP proxies.
+#GNU Wget is a free utility for non-interactive download of files from the Web. It supports HTTP, HTTPS, and FTP protocols, as well as retrieval through HTTP proxies.
 wget -O memorials-of-old-lincolnshire.txt https://www.gutenberg.org/files/65653/65653-0.txt
 
 #to read: http://linuxcommand.org/
