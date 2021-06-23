@@ -1,0 +1,4 @@
+#repeating a string, bash expands {1..100} :
+printf '=%.0s' {1..100}
+
+seq 100 104
