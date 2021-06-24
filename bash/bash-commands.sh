@@ -10,4 +10,7 @@ curl -o memorials-of-old-lincolnshire.txt http://www.het.brown.edu/guide/UNIX-pa
 #GNU Wget is a free utility for non-interactive download of files from the Web. It supports HTTP, HTTPS, and FTP protocols, as well as retrieval through HTTP proxies.
 wget -O memorials-of-old-lincolnshire.txt https://www.gutenberg.org/files/65653/65653-0.txt
 
+#getting a list of process threads
+ps aux | grep bash
+
 #to read: http://linuxcommand.org/
